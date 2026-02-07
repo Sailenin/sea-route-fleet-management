@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dynamic Quantum Sea Fleet Optimization (Demo)
 
 This repository is a minimal, demoable prototype for a map-based sea-route optimizer that compares classical and quantum-style approaches.
@@ -42,3 +43,6 @@ If you want, I can:
 - Wire Flask to serve the frontend directly (single server route)
 - Extend QAOA using Qiskit for a runnable quantum demo (requires heavy deps)
 - Add docker-compose for easier setup
+=======
+# sea-route-fleet-management
+>>>>>>> e711e651a99def783f9b350768d05118a7f357f4
