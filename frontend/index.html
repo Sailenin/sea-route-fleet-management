@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Fleet Optimization Demo - QAOA vs Classical</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="/static/styles.css" />
+</head>
+
+<body>
+    <div id="map"></div>
+    <div id="panel">
+        <h2>⚡ QUANTUM FLEET OPTIMIZATION</h2>
+        <p style="font-size: 12px; color: #666; margin: 4px 0;"><strong>Classical Routing vs QAOA Quantum-Optimized
+                Routing</strong></p>
+        <p><small>Click two ports to compare classical distance-optimized vs quantum-optimized routes</small></p>
+
+        <div id="info" style="margin: 12px 0; padding: 8px; background: #f5f5f5; border-radius: 4px;"></div>
+
+        <div id="comparisons">
+            <div id="costComparison"></div>
+            <div id="deltaComparison"></div>
+            <div id="computeTimeComparison"></div>
+            <div id="algorithmComparison"></div>
+        </div>
+
+        <div id="routeDetails"
+            style="margin-top: 12px; padding: 8px; background: #f9f9f9; border-left: 3px solid #1976D2; border-radius: 2px;">
+        </div>
+
+        <div
+            style="margin-top: 12px; padding: 8px; background: #fffacd; border-left: 3px solid #ff6b00; border-radius: 2px; font-size: 11px;">
+            <strong>📌 Legend:</strong><br />
+            🔵 <span style="color: #1976D2;">Classical</span> = Distance-optimized (traditional approach)<br />
+            🟣 <span style="color: #7B1FA2;">QAOA</span> = Multi-metric optimized (fuel, carbon, time, cost)
+        </div>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/static/main.js"></script>
+</body>
+
+</html>
