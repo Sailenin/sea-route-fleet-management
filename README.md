@@ -44,5 +44,3 @@ If you want, I can:
 - Extend QAOA using Qiskit for a runnable quantum demo (requires heavy deps)
 - Add docker-compose for easier setup
 =======
-# sea-route-fleet-management
->>>>>>> e711e651a99def783f9b350768d05118a7f357f4
